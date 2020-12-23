@@ -1,3 +1,10 @@
+#!/bin/bash
+# Observium on Centos 7
+# Usage: ./observium-centos7.sh
+# Copyright (c) 2020 GMP
+# GNU License
+
+{
 echo Observium on Centos 7
 echo .
 echo .
@@ -138,3 +145,4 @@ echo Access Web GUI via http://ip-address
 echo .
 echo .
 echo bye...
+}
