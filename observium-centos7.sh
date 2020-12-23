@@ -29,7 +29,7 @@ systemctl enable mariadb
 echo .
 echo .
 echo Create DB password
-mysql_secure_installation
+/usr/bin/mysqladmin -u root password 'pring1000'
 echo .
 echo .
 echo Create Database
