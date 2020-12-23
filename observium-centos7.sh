@@ -16,7 +16,7 @@ echo Update
 yum -y update
 echo .
 echo Installing Package
-yum -y install nano libvirt httpd php php-cli php-mysql php-gd php-snmp vixie-cron php-mcrypt php-pear net-snmp net-snmp-utils graphviz subversion mysql-server mysql rrdtool fping ImageMagick jwhois nmap ipmitool php-pear.noarch MySQL-python ggc
+yum -y install nano libvirt httpd php php-cli php-mysql php-gd php-snmp vixie-cron php-mcrypt php-pear net-snmp net-snmp-utils graphviz subversion mysql-server mysql rrdtool fping ImageMagick jwhois nmap ipmitool php-pear.noarch MySQL-python
 echo .
 echo Making Directory
 mkdir -p /opt/observium && cd /opt
