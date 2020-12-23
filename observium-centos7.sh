@@ -1,7 +1,6 @@
 echo Observium on Centos 7
 
 echo Adding MariaDB Repository
-yum install wget
 wget https://downloads.mariadb.com/MariaDB/mariadb_repo_setup
 chmod +x mariadb_repo_setup
 sudo ./mariadb_repo_setup
