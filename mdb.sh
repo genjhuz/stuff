@@ -40,11 +40,8 @@ CREATE DATABASE dbobservium;
 CREATE USER 'observuser'@'localhost' IDENTIFIED BY 'pring1000';
 GRANT ALL PRIVILEGES ON dbobservium.* TO 'observuser'@'localhost';
 exit
-echo .
-echo .
-echo Finish
-echo Access Web GUI via http://ip-address
-echo .
-echo .
-echo bye...
+}
+
+{
+fping google.com detik.com
 }
